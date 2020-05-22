@@ -1,0 +1,67 @@
+
+.basic-info {
+    display: grid;
+    background-image: url(images/Joint-Session-Of-Congress.jpg);
+    color: rgb(247, 237, 218);
+    border-top: .2em solid wheat;
+    padding: .5em;
+}
+
+.basic-info-details {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: .2em solid wheat;
+    margin-top: .5em;
+}
+
+.representative-picture {
+    border: 5px solid rgb(247, 237, 218);
+}
+
+#my-representative {
+    border-bottom: .2em solid wheat;
+}
+
+h3 {
+    border-top: .2em solid wheat;
+    padding-top: .5em;
+}
+.gavel-img {
+    display: flex;
+    flex-direction: row;
+    opacity: .8;
+}
+
+.committee-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: rgba(136, 17, 17, 0.24);
+}
+
+.bill-flex-container {
+    background-image: url(images/Bill-of-rights.jpg);
+    
+}
+
+.bill-list {
+    color:rgb(16,6,6);
+    background: rgba(230, 230, 230, 0.7);
+}
+.committee {
+    color:darkslategray; 
+}
+
+li {
+    padding: .6em;
+    color: rgba(173, 216, 230, 0);
+    border: 5px solid;
+    border-radius: 12px;
+    background: rgba(173, 216, 230, 0.0);
+}
+
+li:hover {
+    color: lightblue;
+    border: 5px solid;
+    border-radius: 12px;
+    background: rgba(173, 216, 230, 0.205);
+}
